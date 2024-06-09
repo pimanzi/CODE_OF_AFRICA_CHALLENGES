@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Place Imanzi Kabisa" />
+    <meta
+      name="description"
+      content="Code of Africa Take home challenge, section of Interactive Photo Gallery"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="../favicon_io/site.webmanifest" />
+    <title>Photo Gallery</title>
+  </head>
+  <body>
+    <div class="parentContainer">
+      <!-- First Div -->
+      <div
+        class="animal"
+        onmouseover="if (window.innerWidth > 789){document.getElementById('fox').style.display='block'}"
+        onmouseout="document.getElementById('fox').style.display='none'"
+      >
+        <img id="fox-img" src="images/large/Fox.png" alt="Fox image" />
+        <div class="description">
+          <p class="name">fennec <br />fox</p>
+          <p class="country">India</p>
+        </div>
+        <a id="fox" href="" target="_blank">Know more <span>&rarr;</span></a>
+      </div>
+
+      <!-- Second Div -->
+      <div
+        class="animal"
+        onmouseover="if (window.innerWidth > 789){document.getElementById('whale').style.display='block'}"
+        onmouseout="document.getElementById('whale').style.display='none'"
+      >
+        <img id="whale-img" src="images/large/whale.png" alt="Whale image" />
+        <div class="description">
+          <p class="name">humpback <br />whale</p>
+          <p class="country">South Africa</p>
+        </div>
+        <a id="whale" href="" target="_blank">Know more <span>&rarr;</span></a>
+      </div>
+
+      <!-- Third Div -->
+      <div
+        class="animal"
+        onmouseover="if (window.innerWidth > 789){document.getElementById('baboon').style.display='block'}"
+        onmouseout="document.getElementById('baboon').style.display='none'"
+      >
+        <img id="baboon-img" src="images/large/Baboon.png" alt="Baboon image" />
+        <div class="description">
+          <p class="name">common brown <br />baboon</p>
+          <p class="country">South Africa</p>
+        </div>
+        <a id="baboon" href="" target="_blank">Know more <span>&rarr;</span></a>
+      </div>
+
+      <!-- Fourth Div -->
+      <div
+        class="animal"
+        onmouseover="if (window.innerWidth > 789){document.getElementById('deer').style.display='block'}"
+        onmouseout="document.getElementById('deer').style.display='none'"
+      >
+        <img id="deer-img" src="images/large/Deer.png" alt="Deer image" />
+        <div class="description">
+          <p class="name">spotted <br />deer</p>
+          <p class="country">Amazon</p>
+        </div>
+        <a id="deer" href="" target="_blank">Know more <span>&rarr;</span></a>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
