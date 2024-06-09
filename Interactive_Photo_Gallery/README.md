@@ -10,7 +10,7 @@ The languages used to build this interactive web-based project are HTML, CSS, an
 
 2.Utilizes small versions of images for better performance on smaller screens  
 
-3. Provides additional information about each image on hover
+3.Provides additional information about each image on hover
    
 ## Installation
 
@@ -34,9 +34,9 @@ cd Interactive_Photo_Gallery
 
 ## Technologies Used
 
-1.HTML5
-2.CSS3
-3.JavaScript
+1.HTML5  
+2.CSS3  
+3.JavaScript  
 
 
 
