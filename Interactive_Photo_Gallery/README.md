@@ -5,6 +5,10 @@
 This interactive photo gallery project is part of the CODE of AFRICA Take Home Challenge. This project is responsive as well as able to adapt to different web browsers such as Safari, chrome, firefox.
 The languages used to build this interactive web-based project are HTML, CSS, and Javascript. 
 
+## WebPage Link
+
+Feel Free to click on the link, to observe this interactive webpage. [Click Me](https://pimanzi.github.io/CODE_OF_AFRICA_CHALLENGES/Interactive_Photo_Gallery/)
+
 ## Features
 1.Dynamically updates image sources based on window width
 
